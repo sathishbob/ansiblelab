@@ -3,7 +3,7 @@
   tasks:
   - name: create directory
     file:
-      pat: /home/ansible/testdirectory
+      path: /home/ansible/testdirectory
       state: directory
   - name: create file
     file:
